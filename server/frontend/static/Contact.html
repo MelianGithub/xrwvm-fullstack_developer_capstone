@@ -1,0 +1,62 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            text-align: center;
+        }
+        img.large {
+            width: 100%;
+            max-width: 600px; /* Adjust the max-width as per your requirement */
+            height: auto;
+            margin-bottom: 20px;
+        }
+        .row {
+            display: flex;
+            justify-content: center;
+        }
+        .column {
+            flex: 50%;
+            padding: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="../static/car_dealership.jpg" class="large" alt="Autos Image">
+        <div class="row">
+            <div class="column">
+                <img src="../static/contactus.png" alt="Contact Us Image">
+            </div>
+            <div class="container">
+                <h1>Contact Us</h1>
+                <div class="contact-info">
+                    <p><strong>Email:</strong> info@tuempresa.com</p>
+                    <p><strong>Dirección:</strong> Calle Principal, Ciudad, País</p>
+                    <p><strong>Teléfono:</strong> +1234567890</p>
+                    <p><strong>Horarios:</strong></p>
+                    <ul>
+                        <li>Lunes a Viernes: 9:00 am - 6:00 pm</li>
+                        <li>Sábado: 10:00 am - 4:00 pm</li>
+                        <li>Domingo: Cerrado</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
